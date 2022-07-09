@@ -14,6 +14,18 @@
         android:theme="@style/Theme.UShop"
         tools:targetApi="31">
         <activity
+            android:name=".Signalez"
+            android:exported="false" />
+        <activity
+            android:name=".Commande"
+            android:exported="false" />
+        <activity
+            android:name=".Acceuil"
+            android:exported="false" />
+        <activity
+            android:name=".Chargement"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
